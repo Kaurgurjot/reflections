@@ -48,6 +48,12 @@ git config --global -e
 git config --global push.default upstream
 git config --global merge.conflictstyle diff3
 
+git init --- to created a repository or convert a normal repo to git repo
+
+git add filename -- to add files to staging in git 
+
+git reset filename -- to remove file from staging 
+
 
 
 
