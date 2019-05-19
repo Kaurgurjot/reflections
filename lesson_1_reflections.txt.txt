@@ -1,0 +1,53 @@
+as the file was huge and comparing all the lines would have made my job very difficult so just know what has changed helped find the error easily 
+
+*****WINDOWS****
+cmd
+FC file_old.txt file_new.txt
+
+****LINUX*****
+diff -u file_old.txt file_new.txt
+
+****GIT*****
+git log
+git log --stat
+exit - q
+git diff commit_id_1 commit_id_2
+git clone https://github.com/udacity/asteroids.git
+git config --global color.ui auto
+git checkout -- gets the commit to a particular commit
+having the old code can help me figure out my errors and also at any point of time I will have a working version
+
+
+Pros of manual commit s
+* I know when to add a logical stop 
+* Commits are small and meaniful for history
+
+Cons of manual commits
+*I can forget to commit for days
+*Too many commits
+
+//****THUMB RULE********//
+A good rule of thumb is to make one commit per logical change. 
+
+/****************ERROR MSG*************/
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. 
+You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. 
+Git just warns you so that you’ll realize you’re doing it.
+
+
+/**********************/
+I can always go back to my previous commit 
+
+/********************SET THE VSCODE DEFAULT*********************/
+git config --global core.editor "code --wait"   (https://blog.soltysiak.it/en/2017/01/set-visual-studio-code-as-default-git-editor-and-diff-tool/)
+git config --global -e
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+
+
+
