@@ -1,0 +1,39 @@
+BRANCHES
+****************
+git branch -- get the list of braches
+git brach easy_mode -- creates a easy_mode branch 
+git checkout easy_mode -- changes the active repo from master to easy_mode 
+code .
+
+git log --graph --oneline master coins
+
+git gc -- garbage collector
+
+MERGE 
+************
+git merge master coins
+
+DELETE A BRACH 
+******************
+git brach -d coins 
+
+SHOW
+*****
+git show commit1 -- if you dont know the parent brach 
+
+MERGE CONFLICT 
+***************
+git merge brach1 barch2 
+code .
+look into the conflict  and save 
+git add files 
+git commit 
+
+
+GITHUB
+**********
+* git remote -- shows if the local repo is tied to any remote repo 
+* git remote add origin URL 
+* git push origin(name of the remote repo) master(current branch in local)
+
+
